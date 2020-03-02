@@ -1,0 +1,34 @@
+{
+  "name": "my-vue-press",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sh": "sh deploy.sh",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "pre-push": [
+    "sh"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/501981732/my-vue-press.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/501981732/my-vue-press/issues"
+  },
+  "homepage": "https://github.com/501981732/my-vue-press#readme",
+  "devDependencies": {
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "pre-push": "^0.1.1",
+    "vuepress": "^0.14.5"
+  },
+  "dependencies": {
+    "glob": "^7.1.3",
+    "gsap": "^2.1.2"
+  }
+}

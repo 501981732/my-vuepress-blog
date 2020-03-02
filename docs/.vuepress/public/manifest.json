@@ -1,0 +1,15 @@
+{
+    "name": "隔壁老王的blog",
+    "short_name": "gblw",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#fff",
+    "theme_color": "#3eaf7c",
+    "icons": [
+      {
+        "src": "/img/merry.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      }
+    ]
+  }
